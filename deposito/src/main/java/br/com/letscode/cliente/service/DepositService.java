@@ -1,6 +1,5 @@
 package br.com.letscode.cliente.service;
 
-import br.com.letscode.cliente.model.conta.dto.ContaResponse;
 import br.com.letscode.cliente.model.deposit.Deposit;
 import br.com.letscode.cliente.model.deposit.dto.DepositResponse;
 

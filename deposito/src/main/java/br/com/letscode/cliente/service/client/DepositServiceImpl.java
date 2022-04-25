@@ -33,20 +33,4 @@ public class DepositServiceImpl implements DepositService {
         return depositResponse;
 
     }
-//
-//    public SorteioResponse sortearCasa() {
-//
-//        RestTemplate restTemplate = new RestTemplate();
-//        HttpHeaders headers = new HttpHeaders();
-//        headers.set(HttpHeaders.ACCEPT, MediaType.APPLICATION_JSON_VALUE);
-//        HttpEntity<?> entity = new HttpEntity<>(headers);
-//        ResponseEntity<SorteioResponse> casaInfoResponseEntity =
-//                restTemplate.exchange(
-//                        urlSortearCasa,
-//                        HttpMethod.GET,
-//                        entity,
-//                        SorteioResponse.class
-//                );
-//        return casaInfoResponseEntity.getBody();
-//    }
 }
